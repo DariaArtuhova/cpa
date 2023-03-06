@@ -1,0 +1,429 @@
+@font-face {
+  font-family: 'Arto Condensed', sans-serif;
+  src: url("../fonts/ArtoCondensed BoldFive.ttf");
+}
+body {
+  margin: 0;
+  font-family: 'Unbounded', sans-serif;
+}
+body .main {
+  background: #2F408E;
+  height: 1020px;
+  padding: 30px;
+}
+body .main .header {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  align-items: start;
+  z-index: 9;
+  width: 94%;
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+}
+body .main .header .login a {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px #FFF solid;
+  padding: 3px;
+  margin-right: 30px;
+}
+body .main .header .menu {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+body .main .header .menu a {
+  font-size: 16px;
+  font-weight: 300;
+  color: #DFE1E0;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+body .main .person {
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+body .main .main-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  justify-content: center;
+}
+body .main .main-text .cpa-bro {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+body .main .main-text p {
+  font-family: 'Arto Condensed', sans-serif;
+  font-weight: 750;
+  font-size: 400px;
+  line-height: 360px;
+  margin: 0;
+  color: white;
+}
+body .main .main-bottom-text {
+  font-size: 22px;
+  font-weight: 500;
+  color: #FFFFFF;
+  width: 80%;
+  margin: 0 auto;
+}
+body .advantages {
+  background: black;
+  position: relative;
+  padding: 140px 60px;
+}
+body .advantages .advantages-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+body .advantages .advantages-top .advantages-top-left {
+  position: relative;
+  padding: 60px 120px 181px 40px;
+  background: #DFE1E0;
+  border-radius: 35px;
+}
+body .advantages .advantages-top .advantages-top-left .advantages-about {
+  font-size: 20px;
+  font-weight: 600;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 4.5s steps(30, end) infinite, blink-caret 0.7s step-end infinite;
+  margin-bottom: 95px;
+  text-transform: uppercase;
+}
+body .advantages .advantages-top .advantages-top-left .advantages-year {
+  font-size: 160px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0;
+}
+body .advantages .advantages-top .advantages-top-left .advantages-cpa {
+  font-size: 48px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+body .advantages .advantages-top .advantages-top-left .advantages-arrow {
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+}
+body .advantages .advantages-top .advantages-top-center .advantages-top-center-block,
+body .advantages .advantages-top .advantages-top-center .advantages-top-center-block-green {
+  width: 460px;
+  padding: 20px 30px;
+  background: #FFFFFF;
+  border-radius: 35px;
+  margin-bottom: 13px;
+}
+body .advantages .advantages-top .advantages-top-center .advantages-top-center-block p,
+body .advantages .advantages-top .advantages-top-center .advantages-top-center-block-green p {
+  font-size: 22px;
+  font-weight: 500;
+}
+body .advantages .advantages-top .advantages-top-center .advantages-top-center-block-green {
+  animation: wave 2s ease-in-out infinite alternate;
+  background: #38BB88;
+}
+body .advantages .advantages-top .advantages-top-right-block {
+  background: #FFFFFF;
+  padding: 50px 20px;
+  width: 380px;
+  border-radius: 35px;
+  margin-bottom: 13px;
+}
+body .advantages .advantages-top .advantages-top-right-block p {
+  font-size: 22px;
+  font-weight: 500;
+}
+body .advantages .advantages-top .red {
+  background: #DA573C;
+}
+body .advantages .advantages-bottom {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+}
+body .advantages .advantages-bottom .advantages-bottom-block {
+  padding: 50px 20px;
+  border-radius: 35px;
+  margin-right: 40px;
+}
+body .advantages .advantages-bottom .advantages-bottom-block p {
+  font-size: 22px;
+  font-weight: 500;
+}
+body .advantages .advantages-bottom .left {
+  background: #FFDD67;
+}
+body .advantages .advantages-bottom .right {
+  background: #DFE1E0;
+}
+body .advantages .advantages-bottom .right .three {
+  font-size: 74px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+}
+body .advantages .smile1,
+body .advantages .smile2,
+body .advantages .hand {
+  position: absolute;
+}
+body .advantages .hand {
+  left: -2%;
+  bottom: 0;
+}
+body .advantages .smile1 {
+  right: 13%;
+  bottom: 36%;
+  animation: smile 1s ease-in-out infinite alternate;
+}
+body .advantages .smile2 {
+  right: 2%;
+  bottom: 12%;
+  animation: smile 1s ease-in-out infinite alternate;
+}
+body .about {
+  background: url("../img/bro-fon.png");
+  position: relative;
+  height: 1080px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  padding-bottom: 190px;
+  padding-right: 215px;
+}
+body .about .bro {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+}
+body .about .bro-text {
+  width: 50%;
+  text-align: center;
+  z-index: 1;
+}
+body .about p {
+  font-size: 30px;
+  font-weight: 400;
+}
+body .about button {
+  background: #DE5722;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  width: 590px;
+  height: 108px;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+body .or {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  animation: opasity 3s;
+  z-index: 10;
+}
+body .or button {
+  font-family: 'Unbounded', sans-serif;
+  background: transparent;
+  border-radius: 15px;
+  width: 224px;
+  height: 65px;
+  outline: none;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  color: #FFFFFF;
+  line-height: 15px;
+}
+body .or button:hover {
+  cursor: pointer;
+  border: none;
+  background: #2F408E;
+}
+body .or p {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0 50px;
+  color: #FFFFFF;
+}
+body .webmaster,
+body .advertiser {
+  display: none;
+  font-family: 'Unbounded', sans-serif;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  animation: opasity 2s;
+  z-index: 10;
+}
+body .webmaster .webmaster-block,
+body .advertiser .webmaster-block {
+  display: flex;
+}
+body .webmaster form,
+body .advertiser form {
+  background: #2F408E;
+  padding: 30px 75px;
+  color: white;
+  width: 370px;
+  height: 600px;
+  margin: 0 40px;
+}
+body .webmaster form label,
+body .advertiser form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+body .webmaster form input,
+body .advertiser form input {
+  display: block;
+  width: 99%;
+  height: 45px;
+  border: 1px solid #fff;
+  background: transparent;
+  margin-bottom: 10px;
+}
+body .webmaster form .password,
+body .advertiser form .password {
+  display: flex;
+  justify-content: space-between;
+}
+body .webmaster form p,
+body .advertiser form p {
+  width: 90%;
+  display: inline-block;
+  margin: 0;
+  font-size: 10px;
+  font-weight: 300;
+}
+body .webmaster form button,
+body .advertiser form button {
+  font-family: 'Unbounded', sans-serif;
+  background: #DFE1E0;
+  width: 100%;
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  height: 50px;
+  outline: none;
+  border: none;
+  margin-top: 25px;
+}
+body .webmaster .check,
+body .advertiser .check {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+body .webmaster input[type="checkbox"],
+body .advertiser input[type="checkbox"] {
+  width: auto;
+  height: auto;
+  margin: 0 10px 0 0;
+  display: inline;
+}
+body .webmaster #telegram,
+body .advertiser #telegram {
+  width: 167px;
+}
+body .webmaster #experience,
+body .advertiser #experience {
+  height: 77px;
+}
+body .webmaster .webmaster-left,
+body .advertiser .webmaster-left,
+body .webmaster .webmaster-right,
+body .advertiser .webmaster-right {
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 600;
+  color: #FFFFFF;
+  width: 100px;
+}
+body .webmaster .webmaster-right,
+body .advertiser .webmaster-right {
+  transform: rotate(90deg);
+}
+body .webmaster .webmaster-left,
+body .advertiser .webmaster-left {
+  transform: rotate(-90deg);
+}
+@keyframes smile {
+  15% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(10deg);
+  }
+}
+@keyframes wave {
+  15% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(15deg);
+  }
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+@keyframes opasity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
